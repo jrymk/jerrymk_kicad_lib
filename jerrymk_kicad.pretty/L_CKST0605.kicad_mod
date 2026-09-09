@@ -1,0 +1,270 @@
+(footprint "L_CKST0605"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor, Changjiang, FNR3015S, 3.0x3.0x1.5mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
+	(tags "wirewound power shielded")
+	(property "Reference" "L7"
+		(at 0 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "57b22d22-432d-4d1f-8a17-a1554f5f0e44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3u3"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "b684d463-9997-403b-9bcf-e963ae1b1c01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "012d2d00-127e-490b-958d-bc8bd75b251d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inductor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdf9d136-ffa0-4dde-870a-3d287e565870")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "inductor/SMD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fbc47217-73a2-4cfc-8ece-58c5fa73a03f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part No." "CKST0605-10uH/M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb5a5cd4-35dc-4adb-8450-5f8c5fed53e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+	(sheetname "/Fan Power/")
+	(sheetfile "Fan_Power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.3 -3.6)
+		(end 2.3 -3.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f77524fa-5971-4515-8424-0ffce7dad022")
+	)
+	(fp_line
+		(start -2.3 3.6)
+		(end 2.3 3.6)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f25ca55-f935-427e-be1f-3d42a25802fe")
+	)
+	(fp_line
+		(start -4.4 -2)
+		(end -4.4 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4b5b436-6e5d-4721-9e47-818cd1f353b6")
+	)
+	(fp_line
+		(start -4.4 2)
+		(end -4 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d20de35b-4c26-42f1-97a8-31d1b34d73f2")
+	)
+	(fp_line
+		(start -4 -3.6)
+		(end -4 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e347722e-3dbb-4c0d-a3f6-d851db80ca2d")
+	)
+	(fp_line
+		(start -4 -2)
+		(end -4.4 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b303b280-e2b5-4ec9-96e8-726ea7b1742a")
+	)
+	(fp_line
+		(start -4 2)
+		(end -4 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "95dbcc66-b6eb-4408-addd-c23ddb436ad9")
+	)
+	(fp_line
+		(start -4 3.6)
+		(end 4 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "13a28796-e7ae-456d-a446-752315cb19ee")
+	)
+	(fp_line
+		(start 4 -3.6)
+		(end -4 -3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "05545704-9098-40b8-8234-8fa09e9f9715")
+	)
+	(fp_line
+		(start 4 -2)
+		(end 4 -3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "68d24a6e-07bd-498a-9de7-9ffe8dffe483")
+	)
+	(fp_line
+		(start 4 2)
+		(end 4 3.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e7148cfc-ceb3-4b79-bbeb-24edcf6b03ec")
+	)
+	(fp_line
+		(start 4 2)
+		(end 4.4 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4bf7710-ab71-4eb8-aa8d-06caf211c03a")
+	)
+	(fp_line
+		(start 4.4 -2)
+		(end 4 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a97ba8fc-ab9b-453b-bea8-687acffafb09")
+	)
+	(fp_line
+		(start 4.4 2)
+		(end 4.4 -2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "28cd7431-8de2-4890-b619-30e2d4936014")
+	)
+	(fp_rect
+		(start -3.75 -3.3)
+		(end 3.75 3.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8d46de5d-56c6-4855-8430-697af81d141e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "50fb6321-94c2-4461-a13c-8d8e1abd58dc")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3.025 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09574468085)
+		(uuid "8c1d3d35-0e85-4057-8a3d-06e1b2f997f4")
+	)
+	(pad "2" smd roundrect
+		(at 3.025 0)
+		(size 2.35 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.09574468085)
+		(uuid "d0bdcdec-c41c-4d24-862c-2f875e99e8c7")
+	)
+	(embedded_fonts no)
+	(model "${JERRYMK_KICAD_LIB}/3d_models/SRP7050WA.stp"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 0.95 0.95 0.74)
+		)
+		(rotate
+			(xyz -180 -0 -90)
+		)
+	)
+)

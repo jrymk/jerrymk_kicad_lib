@@ -1,0 +1,78 @@
+(footprint "Otamatone-battery-contact"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c29573ff-1699-4ce7-bcca-a2c7e508ea27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Otamatone-battery-contact"
+		(at 0 3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3b733ffd-1b3b-4ff6-9ce5-320bcaebbb3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b19a4e32-cdc4-4e33-8b80-6a2c3cf7c5c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f605e68-3dfe-411e-8764-66e1117cf1b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f3a18dd-378c-4faf-8182-6c180133b5f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 5.6 4.3)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d977a188-9c3d-43c0-8a81-ea6e22406859")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,146 @@
+(footprint "WS2812B-1010"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1010 RGB LED WS2812B")
+	(property "Reference" "REF**"
+		(at -8 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d6a7cc20-99d3-4dd6-a89b-4beb2f1ec242")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "WS2812B-1010"
+		(at 0 1.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "088800ca-dde5-4a80-a91e-6296a9ee2a82")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68707bd4-6e87-4d7b-b6f6-7065ea229498")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "332a1b6c-4241-4a69-b79d-8ee52c78b429")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 0.1)
+		(end -0.7 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "659e00ac-fec6-4259-9ecf-c96158d60064")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a2892704-9793-4163-816d-5cd8c5e932f3")
+	)
+	(fp_rect
+		(start -0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6309aea0-249e-42c2-b4d6-d71bb2f2062a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf847f1b-322e-4d80-8885-33bc1c762c35")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.4 -0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.025)
+		(uuid "437d6cfa-f998-43e6-9d11-2838e3603a8b")
+	)
+	(pad "2" smd roundrect
+		(at -0.4 -0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.025)
+		(uuid "39b06b81-46cc-4401-a642-ecebb2e09d45")
+	)
+	(pad "3" smd roundrect
+		(at -0.4 0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.025)
+		(uuid "989c2b3e-0bf7-4143-a0be-7d30ada42c51")
+	)
+	(pad "4" smd roundrect
+		(at 0.4 0.4)
+		(size 0.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_paste_margin -0.025)
+		(uuid "a7fd9e0b-823a-408d-aeae-e52e3d11d57e")
+	)
+	(embedded_fonts no)
+	(model "${JERRYMK_KICAD_LIB}/3d_models/150044M155260.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
