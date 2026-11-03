@@ -1,0 +1,136 @@
+(footprint "L_PIM303020"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "https://atta.szlcsc.com/upload/public/pdf/source/20250509/3050C44D444C38C5FEE014563077D87E.pdf")
+	(tags "wirewound power shielded")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "1e45e9de-8d69-4797-b120-d52abb3b2c96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_PIM303020"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "5ceccf09-8767-4ceb-96ea-7fb235e16d55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0d072db-f0d1-4b04-8acb-038ac00ce76e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2a00247-9207-47d7-a348-ec4a6fa5e253")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "inductor/SMD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0d8e4c86-7c76-4290-be5e-599dc7bfdfa7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.65 -1.65)
+		(end 1.65 1.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0485815c-a43c-41b4-90b6-b7a7018d5430")
+	)
+	(fp_rect
+		(start -1.7 -1.7)
+		(end 1.7 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5554afc4-43b9-4c9c-b129-98676dedbf52")
+	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f76895d9-8372-4d2d-808e-20bbae3fc123")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "173a9a14-5906-4597-a51b-c5e547f96b80")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0)
+		(size 1.05 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1184210526)
+		(uuid "039f1a1e-8832-4da3-a08b-fafcbd4507a0")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0)
+		(size 1.05 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1184210526)
+		(uuid "b4d988e1-740f-4c95-ada5-baa3cf15a13b")
+	)
+	(embedded_fonts no)
+	(model "${JERRYMK_KICAD_LIB}/3d_models/PIM303020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

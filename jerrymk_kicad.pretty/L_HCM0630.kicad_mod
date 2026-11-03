@@ -6,9 +6,9 @@
 	(descr "Inductor, Changjiang, FNR3015S, 3.0x3.0x1.5mm, (https://datasheet.lcsc.com/lcsc/1806131217_cjiang-Changjiang-Microelectronics-Tech-FNR5040S3R3NT_C167960.pdf)")
 	(tags "wirewound power shielded")
 	(property "Reference" "REF**"
-		(at 0 -4.4 0)
+		(at 0 -4.064 0)
 		(layer "F.SilkS")
-		(uuid "bd2fdb34-ae32-45ba-b8b7-c25d2b438c36")
+		(uuid "c34f40ac-9b04-4c21-afac-554993d3fe13")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "L_HCM0630"
 		(at 0 2.45 0)
 		(layer "F.Fab")
-		(uuid "92e5e3d1-234b-4d74-89d3-70925c69f33a")
+		(uuid "e62a42c6-21a5-4491-9fe3-76244b8ea728")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c699b0d5-5e55-4814-911e-80f0141a1d79")
+		(uuid "7ce41480-0a89-4e08-8916-a6407728e563")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "688bae7c-d697-450e-885e-f628ad5ec9a5")
+		(uuid "160fe241-43aa-4395-b814-e0db790d6e56")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b0e1c433-6b5c-4a9a-8b89-83fe31080422")
+		(uuid "7fad7fdc-d03f-4eab-b952-b86529359016")
 		(effects
 			(font
 				(size 1 1)
@@ -63,25 +63,16 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_line
-		(start -2.3 -3.6)
-		(end 2.3 -3.6)
+	(fp_rect
+		(start -3.6 -3.3)
+		(end 3.6 3.3)
 		(stroke
-			(width 0.15)
+			(width 0.1)
 			(type default)
 		)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "c118f290-06b6-42cd-b1da-d234192906ca")
-	)
-	(fp_line
-		(start -2.3 3.6)
-		(end 2.3 3.6)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "30ce84da-9c5b-4f04-889c-ed12abd16b91")
+		(uuid "1c4ef53c-a887-4f78-8f56-409e439f11d5")
 	)
 	(fp_rect
 		(start -3.9 -3.6)
@@ -92,7 +83,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ff02d8ea-6db8-48ed-b40d-eff3872399f8")
+		(uuid "55629101-49e5-49e5-8641-f68ade5ee722")
 	)
 	(fp_rect
 		(start -3.6 -3.3)
@@ -103,12 +94,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "d893e034-fc82-4bf1-b313-427814d28789")
+		(uuid "d8794c23-b6e5-4171-993b-942a012c741e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "89e86456-d3a4-4ec1-9491-ef245c3ae054")
+		(uuid "b8424715-3b59-48c1-93fa-958030c2f4a6")
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -121,25 +112,25 @@
 		(size 2.15 3.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1184210526)
-		(uuid "d1953286-7e61-46b5-bdf4-cc95880c59f8")
+		(uuid "5ca27dd2-b420-4cfc-b3e1-dbc8f293ecdd")
 	)
 	(pad "2" smd roundrect
 		(at 2.15 0)
 		(size 2.15 3.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1184210526)
-		(uuid "a7df1925-11c8-4714-a440-3d19ed9938bf")
+		(uuid "49296311-67ab-4870-8e00-1a8647f3058b")
 	)
 	(embedded_fonts no)
-	(model "${JERRYMK_KICAD_LIB}/3d_models/CDRH3D14_HPNP-100NC.stp"
+	(model "${JERRYMK_KICAD_LIB}/3d_models/SRP7050WA.stp"
 		(offset
-			(xyz 0 0 0.3)
+			(xyz 0 0 2.15)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.88 0.88 0.8)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -180 -0 -90)
 		)
 	)
 )
